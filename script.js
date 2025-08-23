@@ -2,7 +2,7 @@ const inputs = document.querySelectorAll("input");
 const resultEl = document.getElementById("result");
 
 function updateMax() {
-  // беремо тільки ті значення, які не пусті та є числами
+
   let values = Array.from(inputs)
     .map(i => i.value.trim())
     .filter(v => v !== "" && !isNaN(v))
