@@ -1,5 +1,112 @@
-.calculator-container {
-    width: 100px;
-    height: 100px;
-    background-color: yellow;
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    width: 1200px;
+    padding: 0px 15px;
+    margin: 0px auto;
+}
+
+.calculator-title {
+    margin-top: 35px;
+}
+
+.calculator-title-content {
+    padding-top: 35px;
+    border-top: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+}
+
+.calculator-title-content__title {
+    color: black;
+    font-size: 16px;
+    font-family: 'Montserrat Alternates';
+}
+
+.calculater-content {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    justify-content: center;
+}
+
+.calculate-form {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.calculate-form__number {
+    border: none;
+    background-color: #D7D7D7;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-family: 'Montserrat Alternates';
+    font-size: 12px;
+    font-weight: 400;
+    box-shadow: 3px 3px #00000040;
+    outline: none;
+    color: #7E7E7E;
+}
+
+.calculator-actions {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    width: 120px;
+    gap: 10px;
+    height: 60px;
+}
+
+.calculate-action {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    color: white;
+    font-size: 12px;
+    background-color: black;
+    padding: 17px 22px;
+    border-radius: 20px;
+    font-family: 'Montserrat Alternates';
+    box-shadow: 3px 3px #00000040;
+}
+
+.calculate-action:hover {
+    cursor: pointer;
+}
+
+.calculate-action:active {
+    cursor: default;
+}
+
+.calculate-result {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    color: white;
+    font-size: 12px;
+    background-color: black;
+    padding: 17px 22px;
+    border-radius: 20px;
+    font-family: 'Montserrat Alternates';
+    box-shadow: 3px 3px #00000040;
+    border: none;
+}
+
+.calculate-result:hover {
+    cursor: pointer;
+}
+
+.calculate-result:active {
+    cursor: default;
 }
