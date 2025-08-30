@@ -1,73 +1,68 @@
- body {
-            font-family: "Montserrat Alternates", sans-serif;
-            font-weight: 100;
-            font-style: normal;
-            text-align: center;
-            margin-top: 50px;
-        }
+body {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  text-align: center;
+  margin-top: 50px;
+}
 
-        button {
-            border: none;
-            background: black;
-            color: white;
-            cursor: pointer;
-            border-radius: 0px 16px 16px 0px;
+button {
+  border: none;
+  background: black;
+  color: white;
+  cursor: pointer;
+  border-radius: 0px 16px 16px 0px;
+}
 
+input {
+  font-family: "Montserrat Alternates", sans-serif;
+  border-radius: 16px 0px 0px 16px;
+  border: none;
+  background-color: rgba(215, 215, 215, 1);
+  width: 180px;
+  font-size: 12px;
+  text-align: center;
+}
 
-        }
+.class-default {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: row;
+}
 
-        input {
-            font-family: "Montserrat Alternates", sans-serif;
-            border-radius: 16px 0px 0px 16px;
-            border: none;
-            background-color: rgba(215, 215, 215, 1);
-            width: 180px;
-            font-size: 12px;
-            text-align: center;
+.search {
+  box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.25);
+  background-color: rgba(215, 215, 215, 1);
+  /* padding-left: 5px; */
+  border-radius: 16px;
+  border: 1px solid #ccc;
+  /* width: 215px; */
+  height: 35px;
+  outline: none;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: center;
+}
 
-        }
+#result {
+  font-family: "Montserrat Alternates", sans-serif;
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
 
-        .class-default {
-            display: flex;
-            flex-wrap: nowrap;
-            justify-content: space-between;
-            align-content: center;
-            flex-direction: row;
+.leap {
+  color: green;
+}
 
-        }
+.not-leap {
+  color: red;
+}
 
-        .search {
-            box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.25);
-            background-color: rgba(215, 215, 215, 1);
-            /* padding-left: 5px; */
-            border-radius: 16px;
-            border: 1px solid #ccc;
-            /* width: 215px; */
-            height: 35px;
-            outline: none;
-            display: flex;
-            flex-wrap: nowrap;
-            flex-direction: row;
-            justify-content: center;
-        }
-
-        #result {
-            font-family: "Montserrat Alternates", sans-serif;
-            margin-top: 20px;
-            font-size: 18px;
-            font-weight: bold;
-        }
-
-        .leap {
-            color: green;
-        }
-
-        .not-leap {
-            color: red;
-        }
-
-        .year {
-            width: 60%;
-            margin-left: auto;
-            margin-right: auto;
-        }
+.year {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
