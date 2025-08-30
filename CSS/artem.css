@@ -1,5 +1,44 @@
-.guess-number__container {
-  width: 100px;
-  height: 100px;
-  background-color: green;
+.input-container {
+  display: inline-flex;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 20px;
+}
+input {
+  background: rgb(175, 175, 175);
+  border-radius: 20px;
+  padding: 10px 15px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  width: 160px;
+}
+button {
+  padding: 10px;
+  border-radius: 20px;
+  background: black;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 16px;
+}
+button svg {
+  width: 18px;
+  height: 18px;
+  fill: white;
+}
+#result {
+  margin-top: 20px;
+  font-size: 18px;
+}
+.win {
+  color: green;
+}
+.lose {
+  color: red;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
