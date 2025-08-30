@@ -1,22 +1,23 @@
 .contacts p {
-    margin: 2px 0;   
-   
-    line-height: 1.2; 
-    font-size: 12px;
-  }
-  .contacts {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 220px; 
-    margin-right: 800px;
-  }
-  .footer-div {
-    display: flex;
-  }
-  .logo-footre-class {
-    width: 165px;
-    height: 70px;
-    margin-top: 80px;
-margin-right: 350px; 
+  margin: 2px 0;
+
+  line-height: 1.2;
+  font-size: 12px;
+}
+.contacts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 220px;
+  margin-right: 800px;
+}
+.footer-div {
+  display: flex;
+  justify-content: space-evenly;
+}
+.logo-footre-class {
+  width: 165px;
+  height: 70px;
+  margin-top: 80px;
+  margin-right: 350px;
 }
