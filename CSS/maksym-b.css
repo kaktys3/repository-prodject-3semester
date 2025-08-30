@@ -15,8 +15,6 @@
   background: #000;
 }
 
-/* .time-calculator {
-} */
 .time-calculator__content {
   display: flex;
   flex-direction: column;

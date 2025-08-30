@@ -1,91 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-    rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/main.css" />
 
-  <link rel="stylesheet" href="./CSS/main.css" />
+    <title>Document</title>
+  </head>
 
-  <title>Document</title>
-</head>
-
-<body>
-
-  <header class="header">
-    <div class="container">
-      <div class="header__content">
-        <div class="header__main-content">
-          <a href="#" class="header__logo-link">
-            <img src="./logo.svg" alt="logo" class="header__logo">
-          </a>
-          <nav class="header__navbar">
-            <a href="#" class="header__navbar-link">Інтерактив</a>
-            <a href="#" class="header__navbar-link">Наша команда</a>
-            <a href="#"class="header__navbar-link">Контакти</a>
-          </nav>
-        </div>
-        <span class="header__greetings">Вітаємо!</span>
-      </div>
-    </div>
-  </header>
-
-  <!-- nikita -->
-  <div class="birth-year__container"></div>
-
-  <!-- artem -->
-  <div class="guess-number__container"></div>
-
-  <!-- maksym shamrai -->
-  <div class="stone-container"></div>
-
-  <!-- roman -->
-  <div class="calculator-container">
-    uijoi
-  </div>
-
-  <!-- maksym bohatov -->
-
-  <div class="time-calculator__container">
-    <section class="time-calculator">
+  <body>
+    <header class="header">
       <div class="container">
-        <div class="time-calculator__content">
-          <span class="time-calculator__line"></span>
-          <h3 class="time-calculator__title">Калькулятор часу</h3>
-          <div class="time-calculator__main-content">
+        <div class="header__content">
+          <div class="header__main-content">
+            <a href="#" class="header__logo-link">
+              <img src="./logo.svg" alt="logo" class="header__logo" />
+            </a>
+            <nav class="header__navbar">
+              <a href="#" class="header__navbar-link">Інтерактив</a>
+              <a href="#" class="header__navbar-link">Наша команда</a>
+              <a href="#" class="header__navbar-link">Контакти</a>
+            </nav>
+          </div>
+          <span class="header__greetings">Вітаємо!</span>
+        </div>
+      </div>
+    </header>
 
-            <form class="time-calculator__enter-value">
-              <label for="time-calculator__input" class="time-calculator__label">
-                <input type="text" class="time-calculator__input" placeholder="Введіть число"></label>
+    <!-- nikita -->
+    <div class="birth-year__container"></div>
 
-              <button class="time-calculator__btn">
-                <img src="./maksym-b img/magnifying-glass.svg" alt="magnifying-glass" class="time-calculator__btn-img">
-              </button>
-            </form>
+    <!-- artem -->
+    <div class="guess-number__container"></div>
 
-            <span class="time-calculator__dashed-line"></span>
+    <!-- maksym shamrai -->
+    <div class="stone-container"></div>
 
-            <span class="time-calculator__result"></span>
+    <!-- roman -->
+    <div class="calculator-container">uijoi</div>
+
+    <!-- maksym bohatov -->
+
+    <div class="time-calculator__container">
+      <section class="time-calculator">
+        <div class="container">
+          <div class="time-calculator__content">
+            <span class="time-calculator__line"></span>
+            <h3 class="time-calculator__title">Калькулятор часу</h3>
+            <div class="time-calculator__main-content">
+              <form class="time-calculator__enter-value">
+                <label
+                  for="time-calculator__input"
+                  class="time-calculator__label"
+                >
+                  <input
+                    type="text"
+                    class="time-calculator__input"
+                    placeholder="Введіть число"
+                /></label>
+
+                <button class="time-calculator__btn">
+                  <img
+                    src="./maksym-b img/magnifying-glass.svg"
+                    alt="magnifying-glass"
+                    class="time-calculator__btn-img"
+                  />
+                </button>
+              </form>
+
+              <span class="time-calculator__dashed-line"></span>
+
+              <span class="time-calculator__result"></span>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
-  </div>
+      </section>
+    </div>
 
-  <!-- andrii -->
-  <div class="dino-container"></div>
+    <!-- andrii -->
+    <div class="dino-container"></div>
 
-  <!-- tymofii -->
+    <!-- tymofii -->
 
-  <div class="enter-numbers__container"></div>
+    <div class="enter-numbers__container"></div>
 
-  <script src="./JS/main.js" type="module"></script>
-</body>
-
+    <script src="./JS/main.js" type="module"></script>
+  </body>
 </html>
