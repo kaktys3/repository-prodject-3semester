@@ -4,20 +4,13 @@
   line-height: 1.2;
   font-size: 12px;
 }
-.contacts {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 220px;
-  margin-right: 800px;
-}
+
 .footer-div {
   display: flex;
   justify-content: space-evenly;
+  margin-top: 20px;
 }
 .logo-footre-class {
   width: 165px;
   height: 70px;
-  margin-top: 80px;
-  margin-right: 350px;
 }
