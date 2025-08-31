@@ -1,5 +1,5 @@
 const inputs = document.querySelectorAll("input");
-const resultEl = document.getElementById("result");
+const resultEl = document.getElementById("enter-numbers_result");
 
 function updateMax() {
   let values = Array.from(inputs)
