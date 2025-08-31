@@ -4,7 +4,7 @@
   overflow: hidden;
   border-radius: 20px;
 }
-input {
+#userNumber {
   background: rgb(175, 175, 175);
   border-radius: 20px;
   padding: 10px 15px;

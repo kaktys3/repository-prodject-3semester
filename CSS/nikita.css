@@ -14,7 +14,7 @@ button {
   border-radius: 0px 16px 16px 0px;
 }
 
-input {
+#yearInput {
   font-family: "Montserrat Alternates", sans-serif;
   border-radius: 16px 0px 0px 16px;
   border: none;
