@@ -38,3 +38,25 @@ p,h1,h2,h3,h4,h5,h6,a,li,ul {
     width: 720px;
     height: 200px;
 }
+
+@keyframes positionDino {
+  0% {
+    top: 150px;
+  }
+
+  50% {
+    top: 50px;
+  }
+
+  100% {
+    top: 150px;
+  }
+}
+
+.dino-container__game-over {
+  position: absolute;
+  top: 40px;
+  left: 160px;
+  font-size: 70px;
+  display: none;
+}
