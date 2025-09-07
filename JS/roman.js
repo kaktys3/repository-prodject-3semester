@@ -7,8 +7,6 @@ const inputTwo = document.querySelector("#number-two");
 const numberResult = document.querySelector("#result");
 const formCalculate = document.querySelector(".calculate-form");
 
-const actions = document.querySelector(".calculate-action");
-
 let currentOperation = 'number';
 
 function addition() {
@@ -27,7 +25,7 @@ function division() {
   currentOperation = "division";
 }
 
-function calculatorActions () {
+function calculatorActions (e) {
   if (currentOperation === "addition") {
     let result = Number(inputOne.value.trim()) + Number(inputTwo.value.trim());
     numberResult.textContent = result;
@@ -43,7 +41,8 @@ function calculatorActions () {
   if (currentOperation === "division") {
     let result = Number(inputOne.value.trim()) / Number(inputTwo.value.trim());
     numberResult.textContent = result;
-  }  
+  } 
+  e.preventDefault()
 }
 
 additionNumber.addEventListener("click",  addition);
@@ -54,4 +53,4 @@ minusNumber.addEventListener("click", subtraction);
 
 divisionNumber.addEventListener("click", division);
 
-formCalculate.addEventListener("click", calculatorActions);
+formCalculate.addEventListener("submit", calculatorActions);
